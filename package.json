@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
+    "@webcomponents/webcomponentsjs": "^2.8.0",
     "cra-template": "1.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.14"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,6 +37,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "web-vitals": "^4.2.4"
   }
 }
