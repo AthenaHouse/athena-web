@@ -1,8 +1,7 @@
 import { styled } from "styled-components";
 
 export const $Logo = styled.img`
-  height: 90%;
-  margin: 5px 100px;
+  height: 100%;
   user-select: none;
 `;
 
