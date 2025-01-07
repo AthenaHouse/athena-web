@@ -1,3 +1,9 @@
+0.13 (2025-01-07)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/3
+* Create Dockerfile
+* Create buildandpush.yml
+
 0.12 (2025-01-07)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/2)
