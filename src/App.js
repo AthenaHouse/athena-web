@@ -5,6 +5,7 @@ import Home from "./components/Main/Home/Home.jsx";
 import './App.css';
 
 const Academy = lazy(() => import('./components/Main/Academy/Academy.jsx'));
+const Contact = lazy(() => import('./components/Main/Contact/Contact.jsx'));
 const Software = lazy(() => import('./components/Main/Software/Software.jsx'));
 const Project = lazy(() => import('./components/Main/Project/Project.jsx'));
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: '/academy', element: <Suspense><Academy /></Suspense> },
       { path: '/software', element: <Suspense><Software /></Suspense>},
       { path: '/projects', element: <Suspense><Project /></Suspense>},
+      { path: '/contact', element: <Suspense><Contact /></Suspense>},
     ],
   },
 ]);
