@@ -1,8 +1,9 @@
 import { styled } from 'styled-components';
-import { darkgold, lightgold } from '../../../../utils/colors.styles';
+import { darkgold, lightgold, steelblue } from '../../../../utils/colors.styles';
 
 export const $NavigationItem = styled.div`
   display: flex;
+  color: ${steelblue};
   align-items: center;
   justify-content: center;
   gap: 5px;
