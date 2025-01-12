@@ -1,3 +1,8 @@
+0.14 (2025-01-12)
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/4
+* Create animation on navigation
+* Change secondary color from black to steelblue
+
 0.13 (2025-01-07)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/3
