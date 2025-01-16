@@ -7,6 +7,7 @@ export const $Banner = styled.header`
   width: 100%;
   height: 100px;
   padding: 5px 100px;
+  margin-bottom: 25px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
