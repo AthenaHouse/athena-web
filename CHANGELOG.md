@@ -1,3 +1,7 @@
+0.15 (2025-01-16)
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/5
+* Design and create home page
+
 0.14 (2025-01-12)
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/4
 * Create animation on navigation
