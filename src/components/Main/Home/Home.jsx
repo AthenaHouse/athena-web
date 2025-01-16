@@ -3,6 +3,7 @@ import { $Content, $Home, $Photo, $Span } from "./Home.styles.jsx";
 import MyImage from "../../../assets/my_image_web_no_bg.jpg";
 
 export default function Home() {
+
   return (
     <$Home>
       <$Content>
@@ -50,4 +51,5 @@ export default function Home() {
       </$Photo>
     </$Home>
   );
+
 }
