@@ -1,3 +1,9 @@
+0.17 (2025-01-17)
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/7
+* Fix navigation container for mobile devices
+* Add info about developer to home page
+* Implement multi language functionality
+
 0.16 (2025-01-17)
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/6
 * Adjust for mobile devices

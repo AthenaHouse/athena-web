@@ -3,7 +3,6 @@ import { $Content, $Home, $Photo, $Span } from "./Home.styles.jsx";
 import MyImage from "../../../assets/my_image_web_no_bg.jpg";
 
 export default function Home() {
-
   return (
     <$Home>
       <$Content>
@@ -14,6 +13,15 @@ export default function Home() {
           services include coding in Java and JavaScript using various
           frameworks. Applications are deployed in the cloud, with
           infrastructure optimized for security.
+        </p>
+        <p>
+          My name is Bartosz Dziurowicz, and I am a Fullstack Developer
+          with many years of experience in the IT industry. I specialize in Java
+          and React, and my skills encompass both backend and frontend
+          development, allowing me to approach projects comprehensively. I am
+          also proficient in cloud technologies, further enhancing my ability to
+          deliver scalable and secure solutions. I hold a Java certification,
+          which confirms my competencies in this field.
         </p>
         <$Span>Academy</$Span>
         <p>
@@ -51,5 +59,4 @@ export default function Home() {
       </$Photo>
     </$Home>
   );
-
 }
