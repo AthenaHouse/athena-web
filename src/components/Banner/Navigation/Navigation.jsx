@@ -1,9 +1,12 @@
+import { useTranslation } from 'react-i18next';
 import $Navigation, { $Link, Container, AnimationOverlay, Triangle } from './Navigation.styles.jsx';
 import NavigationItem from './NavigationItem/NavigationItem.jsx';
 import { IoCodeSlash, IoFolderOpenOutline, IoInformationCircleOutline, IoPersonOutline, IoSchoolOutline } from "react-icons/io5";
 import { shuffleArray } from './Navigation.utils.js';
 
 export default function Navigation () {
+
+    const { t } = useTranslation();
 
     const triangles = []; 
     const rows = 5; 
@@ -26,19 +29,19 @@ export default function Navigation () {
         <Container>
             <$Navigation>
                 <$Link to="/home">
-                    <NavigationItem title='About'><IoInformationCircleOutline /></ NavigationItem>
+                    <NavigationItem title={t('menu_home')}><IoInformationCircleOutline /></ NavigationItem>
                 </$Link>
                 <$Link to="/academy">
-                    <NavigationItem title='Academy'><IoSchoolOutline /></ NavigationItem>
+                    <NavigationItem title={t('menu_academy')}><IoSchoolOutline /></ NavigationItem>
                 </$Link>
                 <$Link to="/software">
-                    <NavigationItem title='Software'><IoCodeSlash /></ NavigationItem>
+                    <NavigationItem title={t('menu_software')}><IoCodeSlash /></ NavigationItem>
                 </$Link>
                 <$Link to='/projects'>
-                    <NavigationItem title='Projects'><IoFolderOpenOutline /></ NavigationItem>
+                    <NavigationItem title={t('menu_projects')}><IoFolderOpenOutline /></ NavigationItem>
                 </$Link>
                 <$Link to='/contact'>
-                    <NavigationItem title='Contact'><IoPersonOutline /></ NavigationItem>
+                    <NavigationItem title={t('menu_contact')}><IoPersonOutline /></ NavigationItem>
                 </$Link>
             </$Navigation>
             <AnimationOverlay> 

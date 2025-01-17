@@ -3,6 +3,7 @@
 * Fix navigation container for mobile devices
 * Add info about developer to home page
 * Implement multi language functionality
+* Add react tooltip and add tooltips for language button
 
 0.16 (2025-01-17)
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/6

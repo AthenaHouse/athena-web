@@ -1,0 +1,14 @@
+{
+    "motto": "Secure IT for Your Business",
+    "menu_home": "About",
+    "menu_academy": "Academy",
+    "menu_software": "Software",
+    "menu_projects": "Projects",
+    "menu_contact": "Contact",
+    "about_athena": "Athena House specializes in creating secure software with a client-focused approach, utilizing Agile and CI/CD methodologies. My services include coding in Java and JavaScript using various frameworks. Applications are deployed in the cloud, with infrastructure optimized for security.", 
+    "about_developer": "My name is Bartosz Dziurowicz, and I am a Fullstack Developer with many years of experience in the IT industry. I specialize in Java and React, and my skills encompass both backend and frontend development, allowing me to approach projects comprehensively. I am also proficient in cloud technologies, further enhancing my ability to deliver scalable and secure solutions. I hold a Java certification, which  confirms my competencies in this field.",
+    "about_academy": "Athena House offers online training courses that are available on the Udemy platform. This allows you to develop your skills at any place and time. Learn from ",
+    "about_software": "Athena House develops unique, original software projects based on my own ideas. Leveraging the latest technologies, I deliver solutions that are secure and tailored to meet specific needs with cloud deployment for optimized security. Check my ",
+    "about_projects": "The Athena House portfolio showcases diverse projects executed for clients across various industries. Each project highlights my expertise and dedication to providing secure and reliable software solutions tailored to client expectations. View my ",
+    "about_contact": "Feel free to contact me for any inquiries or collaborations. I'm always ready to discuss your software needs and how Athena House can help you achieve your goals. Let's stay in "
+}
