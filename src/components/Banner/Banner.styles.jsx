@@ -17,8 +17,9 @@ export const $Banner = styled.header`
   @media (max-width: 1024px) {
     height: auto;
     padding: 10px 20px;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
   }
 `;
 

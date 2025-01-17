@@ -16,6 +16,10 @@ export const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const AnimationOverlay = styled.div`
@@ -40,7 +44,7 @@ export const Triangle = styled.div`
 export const $Navigation = styled.div`
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: center
 `;
 
 export const $Link = styled(Link)`
