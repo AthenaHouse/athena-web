@@ -1,3 +1,7 @@
+0.16 (2025-01-17)
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/6
+* Adjust for mobile devices
+
 0.15 (2025-01-16)
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/5
 * Design and create home page
