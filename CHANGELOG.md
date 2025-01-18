@@ -1,6 +1,6 @@
 0.20 (2025-01-18)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/9
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/10
 * Certs included into project
 
 0.19 (2025-01-18)
