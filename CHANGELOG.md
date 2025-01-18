@@ -1,3 +1,8 @@
+0.22 (2025-01-18)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/12
+* Configure nginx to handle spa
+
 0.21 (2025-01-18)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/11
