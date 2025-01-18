@@ -1,3 +1,8 @@
+0.19 (2025-01-18)
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/9
+* Change nginx location parameters
+* Fix path to nginx.conf in Dockerfile
+
 0.18 (2025-01-18)
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/8
 * Create nginx.conf and extend dockerfile
