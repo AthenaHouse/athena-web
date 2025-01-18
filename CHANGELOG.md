@@ -1,3 +1,8 @@
+0.21 (2025-01-18)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/11
+* Add proper sections to nginx.conf
+
 0.20 (2025-01-18)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/10
