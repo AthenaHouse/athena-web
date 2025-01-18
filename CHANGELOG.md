@@ -1,3 +1,7 @@
+0.18 (2025-01-18)
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/8
+* Create nginx.conf and extend dockerfile
+
 0.17 (2025-01-17)
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/7
 * Fix navigation container for mobile devices
