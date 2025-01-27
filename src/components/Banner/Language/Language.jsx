@@ -7,7 +7,7 @@ import pl from "../../../assets/pl-48.png";
 
 export default function Language() {
   const { i18n } = useTranslation();
-  const [currentLanguage, setCurrentLanguage] = useState("pl"); // default to 'pl'
+  const [currentLanguage, setCurrentLanguage] = useState("pl");
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language");
@@ -44,7 +44,7 @@ export default function Language() {
           <img src={pl} alt="PL" />
         </a>
       )}
-      <Tooltip id="language_tooltip" place="bottom" type="dark" effect="float" />
+      <Tooltip id="language_tooltip" place="right" type="dark" effect="float" />
     </$Language>
   );
 }

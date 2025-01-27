@@ -1,3 +1,10 @@
+0.23 (2025-01-27)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/13
+* Refactor Home page by creating ImageSlider
+* Refactor Home page by creating Sections
+* Adjust above for mobile
+
 0.22 (2025-01-18)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/12
