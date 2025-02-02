@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tanstack/react-table": "^8.20.6",
     "@testing-library/react": "^13.4.0",
     "@webcomponents/webcomponentsjs": "^2.8.0",
     "cra-template": "1.2.0",
@@ -14,6 +15,7 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
     "react-tooltip": "^5.28.0",
+    "react-transition-group": "^4.4.5",
     "styled-components": "^6.1.14"
   },
   "scripts": {

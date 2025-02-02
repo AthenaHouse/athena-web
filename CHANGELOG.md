@@ -1,3 +1,8 @@
+0.24 (2025-02-??)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/14
+* Create Software tab contains software elements and data
+
 0.23 (2025-01-27)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/13

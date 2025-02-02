@@ -2,8 +2,9 @@ import { styled } from "styled-components";
 
 export const $Main = styled.main`
   max-width: 100%;
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
   padding-bottom: 10px;
 `;
 
