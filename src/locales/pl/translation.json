@@ -13,6 +13,8 @@
     "about_academy": "Athena House oferuje kursy szkoleniowe online dostępne na platformie Udemy. Pozwala to na rozwijanie umiejętności w dowolnym miejscu i czasie. Ucz się z ",
     "about_software": "Athena House rozwija unikalne, oryginalne projekty oprogramowania oparte na moich własnych pomysłach. Wykorzystując najnowsze technologie, dostarczam rozwiązania, które są bezpieczne i dostosowane do konkretnych potrzeb z wdrożeniem w chmurze dla zoptymalizowanego bezpieczeństwa. Sprawdź moje ",
     "about_projects": "Portfolio Athena House prezentuje różnorodne projekty realizowane dla klientów z różnych branż. Każdy projekt podkreśla moje doświadczenie i zaangażowanie w dostarczanie bezpiecznych i niezawodnych rozwiązań programowych dostosowanych do oczekiwań klienta. Zobacz moje ",
-    "about_contact": "Skontaktuj się ze mną w przypadku pytań lub współpracy. Zawsze jestem gotowy omówić Twoje potrzeby związane z oprogramowaniem i jak Athena House może pomóc w osiągnięciu Twoich celów. Pozostańmy w "
+    "about_contact": "Skontaktuj się ze mną w przypadku pytań lub współpracy. Zawsze jestem gotowy omówić Twoje potrzeby związane z oprogramowaniem i jak Athena House może pomóc w osiągnięciu Twoich celów. Pozostańmy w ",
+    "software_carbonTracker": "Kompleksowa aplikacja z trzema usługami zbiera dane dotyczące śladu węglowego laptopów, oblicza je i przechowuje w bazie danych oraz wizualizuje na interfejsie frontendowym dla alertów, monitorowania i raportów ESG. Pomaga to firmom monitorować i redukować ich ślad węglowy, wspierając zrównoważony rozwój i zgodność z ESG.",
+    "software_testCaseFileManager": "Program do zarządzania szablonami wspiera przypadki testowe kompatybilne z Jira. Przyjazny dla użytkownika interfejs oparty na Swing pozwala użytkownikom tworzyć i modyfikować pliki, które mogą być importowane do Jira."    
 }
   

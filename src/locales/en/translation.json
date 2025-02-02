@@ -13,5 +13,7 @@
     "about_academy": "Athena House offers online training courses that are available on the Udemy platform. This allows you to develop your skills at any place and time. Learn from ",
     "about_software": "Athena House develops unique, original software projects based on my own ideas. Leveraging the latest technologies, I deliver solutions that are secure and tailored to meet specific needs with cloud deployment for optimized security. Check my ",
     "about_projects": "The Athena House portfolio showcases diverse projects executed for clients across various industries. Each project highlights my expertise and dedication to providing secure and reliable software solutions tailored to client expectations. View my ",
-    "about_contact": "Feel free to contact me for any inquiries or collaborations. I'm always ready to discuss your software needs and how Athena House can help you achieve your goals. Let's stay in "
+    "about_contact": "Feel free to contact me for any inquiries or collaborations. I'm always ready to discuss your software needs and how Athena House can help you achieve your goals. Let's stay in ",
+    "software_carbonTracker": "A comprehensive application with three services collects laptop carbon footprint data, calculates and stores it in a database, and visualizes it on a frontend for alerts, monitoring, and ESG reports. This helps companies monitor and reduce their carbon footprint, supporting sustainability and ESG compliance.",
+    "software_testCaseFileManager": "The template management program supports Jira-compatible test cases. Its Swing-based user-friendly interface enables users to create and modify files, which can be imported into Jira."
 }
