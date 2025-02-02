@@ -1,7 +1,11 @@
-0.24 (2025-02-??)
+0.24 (2025-02-02)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/14
 * Create Software tab contains software elements and data
+* Adjust components for mobile devices
+* Install css transition
+* Create dropdown for software details
+* Extend locales files by software descriptions
 
 0.23 (2025-01-27)
 ===============

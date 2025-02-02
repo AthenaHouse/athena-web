@@ -1,8 +1,12 @@
 import { styled } from "styled-components";
-import { lightgold, steelblue, steelgrey } from "../../../../utils/colors.styles.jsx";
+import {
+  lightgold,
+  steelblue,
+  steelgrey,
+} from "../../../../utils/colors.styles.jsx";
 
 export const $DropdownWrapper = styled.div`
-    display: block;
+  display: block;
 `;
 
 export const $Software = styled.div`
@@ -10,14 +14,19 @@ export const $Software = styled.div`
   grid-template-columns: 50px 0.2fr 1fr 20px;
   gap: 10px;
   padding: 10px;
+  grid-template-areas: "img name description expand";
 
   @media (max-width: 1024px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 50px 1fr 20px;
     grid-template-rows: auto auto;
+    grid-template-areas:
+      "img name expand"
+      "description description description";
   }
 `;
 
 export const $Expand = styled.div`
+  grid-area: expand;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -30,6 +39,7 @@ export const $Expand = styled.div`
 `;
 
 export const $ImgWrapper = styled.div`
+  grid-area: img;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -40,6 +50,7 @@ export const $Img = styled.img`
 `;
 
 export const $Name = styled.div`
+  grid-area: name;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -48,6 +59,7 @@ export const $Name = styled.div`
 `;
 
 export const $Description = styled.p`
+  grid-area: description;
   display: flex;
   align-items: center;
   justify-content: left;
