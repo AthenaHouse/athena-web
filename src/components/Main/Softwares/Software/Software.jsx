@@ -2,9 +2,10 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { CSSTransition } from "react-transition-group";
 import { FaMinusSquare, FaPlusSquare } from "react-icons/fa";
+import Details from './Details/Details.jsx';
 import {
   $Description,
-  $Details,
+  $Dropdown,
   $DropdownWrapper,
   $Expand,
   $Img,
@@ -43,7 +44,9 @@ export default function Software({ softName }) {
         unmountOnExit
         key={softName}
       >
-        <$Details className="dropdown">zzz</$Details>
+        <$Dropdown className="dropdown" softName={softName}>
+            <Details softName={softName}/>
+        </$Dropdown>
       </CSSTransition>
     </$DropdownWrapper>
   );
