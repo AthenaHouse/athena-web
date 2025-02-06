@@ -15,5 +15,17 @@
     "about_projects": "The Athena House portfolio showcases diverse projects executed for clients across various industries. Each project highlights my expertise and dedication to providing secure and reliable software solutions tailored to client expectations. View my ",
     "about_contact": "Feel free to contact me for any inquiries or collaborations. I'm always ready to discuss your software needs and how Athena House can help you achieve your goals. Let's stay in ",
     "software_carbonTracker": "A comprehensive application with three services collects laptop carbon footprint data, calculates and stores it in a database, and visualizes it on a frontend for alerts, monitoring, and ESG reports. This helps companies monitor and reduce their carbon footprint, supporting sustainability and ESG compliance.",
-    "software_testCaseFileManager": "The template management program supports Jira-compatible test cases. Its Swing-based user-friendly interface enables users to create and modify files, which can be imported into Jira."
+    "software_testCaseFileManager": "The template management program supports Jira-compatible test cases. Its Swing-based user-friendly interface enables users to create and modify files, which can be imported into Jira.",
+    "software_testCaseFileManager_description": "Advanced tool for managing test cases, designed with test engineers and project managers in mind. The application offers an intuitive user interface that allows easy addition, editing, and management of test cases. With rich functionalities, Test Case File Manager enables effective management and organization of tests, contributing to increased efficiency of testing teams. Files are saved in .csv format and are compatible with Jira, allowing seamless import into the system.",
+    "software_testCaseFileManager_features_title": "Features",    
+    "software_testCaseFileManager_features_1": ".csv File Support: Import and export test case files in .csv format, ensuring full compatibility with X-Ray requirements.",
+    "software_testCaseFileManager_features_2": "Flexible Data Management: Add, clone, and delete test cases using a user-friendly interface.",
+    "software_testCaseFileManager_features_3": "Table Customization: Rearrange columns and rows, sort data, and edit it directly in the table.",
+    "software_testCaseFileManager_features_4": "Advanced Filtering: Filter test cases based on various criteria to quickly find the needed information.",
+    "software_testCaseFileManager_features_5": "X-Ray Integration: Export data in a format compatible with X-Ray, minimizing errors and ensuring consistency.",
+    "software_testCaseFileManager_requirements_title": "System Requirements",
+    "software_testCaseFileManager_requirements_1": "Operating System: Windows with Java version 1.8 or higher installed.",
+    "software_testCaseFileManager_requirements_2": "Screen Resolution: Between 1280x720 and 1920x1080 px.",
+    "function_download_exe": "Download",
+    "documentation": "Documentation"
 }

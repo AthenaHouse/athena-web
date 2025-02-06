@@ -16,9 +16,6 @@ export default function Softwares() {
     <$Softwares>
       <$Line />
       {data.map(soft => <><Software key={soft.id} softName={soft.name}/><$Line /></>)}
-      {/* https://athena-web-bucket.s3.eu-west-1.amazonaws.com/test_case_file_manager/test_case_file_manager_v106_setup.exe
-      <br />
-      https://athena-web-bucket.s3.eu-west-1.amazonaws.com/test_case_file_manager/tcfm_user_documentation.pdf */}
     </$Softwares>
   );
 }

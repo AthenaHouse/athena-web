@@ -1,3 +1,10 @@
+0.25 (2025-02-06)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/15
+* Create Software details component
+* Add Software data includes youtube video
+* Implement downlaod function for exe and doc
+
 0.24 (2025-02-02)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/14

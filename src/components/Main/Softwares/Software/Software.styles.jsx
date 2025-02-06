@@ -67,7 +67,7 @@ export const $Description = styled.p`
   font-size: 0.9em;
 `;
 
-export const $Details = styled.div`
+export const $Dropdown = styled.div`
   &.dropdown-enter {
     opacity: 0;
     max-height: 0;
