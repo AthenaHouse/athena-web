@@ -15,6 +15,7 @@ import {
 } from "./Software.styles.jsx";
 import { formatLocale, formatName } from "./Software.utils.js";
 
+/* eslint-disable react/jsx-pascal-case */
 export default function Software({ softName }) {
   const logo = require(`./assets/${softName}/logo.jpg`);
   const [isOpen, setIsOpen] = useState(false);

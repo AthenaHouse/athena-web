@@ -3,6 +3,7 @@ import { IoCodeSlash, IoFolderOpenOutline, IoPersonOutline, IoSchoolOutline } fr
 import Section from './Section/Section.jsx';
 import $Sections from './Sections.styles.jsx';
 
+/* eslint-disable react/jsx-pascal-case */
 export default function Sections() {
 
   const { t } = useTranslation();

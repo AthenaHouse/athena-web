@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import { $Details, $Download } from "./Details.styles.jsx";
 import { urls } from "./Details.data.js";
 
+/* eslint-disable react/jsx-pascal-case */
 export default function Details({ softName }) {
   const { t } = useTranslation();
 

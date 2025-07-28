@@ -5,6 +5,7 @@ import slide01 from "../../../../assets/slider/01_secure_it.jpeg";
 import slide02 from "../../../../assets/slider/02_ci_cd.jpeg";
 import slide03 from "../../../../assets/slider/03_me.jpg";
 
+/* eslint-disable react/jsx-pascal-case */
 export default function ImageSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ export default function ImageSlider() {
     }, 10000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <$Container>
