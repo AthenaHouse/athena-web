@@ -22,7 +22,7 @@ export default function ImageSlider() {
     }, 10000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <$Container>
