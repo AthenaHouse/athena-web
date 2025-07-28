@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { $IconBackground, $Section } from "./Section.styles.jsx";
 
+/* eslint-disable react/jsx-pascal-case */
 export default function Section({ title, description, link, children }) {
 
   return (

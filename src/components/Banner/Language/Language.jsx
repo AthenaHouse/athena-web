@@ -5,6 +5,7 @@ import $Language from "./Language.styles.jsx";
 import en from "../../../assets/en-48.png";
 import pl from "../../../assets/pl-48.png";
 
+/* eslint-disable react/jsx-pascal-case */
 export default function Language() {
   const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState("pl");

@@ -4,6 +4,7 @@ import NavigationItem from './NavigationItem/NavigationItem.jsx';
 import { IoCodeSlash, IoFolderOpenOutline, IoInformationCircleOutline, IoPersonOutline, IoSchoolOutline } from "react-icons/io5";
 import { shuffleArray } from './Navigation.utils.js';
 
+/* eslint-disable react/jsx-pascal-case */
 export default function Navigation () {
 
     const { t } = useTranslation();

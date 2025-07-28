@@ -1,3 +1,9 @@
+0.27 (2025-07-28)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/17
+* eslint /* eslint-disable react/jsx-pascal-case */ for $styled_components
+* Update Babel and BrowsersList
+
 0.26 (2025-07-28)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/16
