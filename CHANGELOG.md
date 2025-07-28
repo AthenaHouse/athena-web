@@ -1,3 +1,9 @@
+0.26 (2025-07-28)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/16
+* Change azure workflow by adding build output
+* Delete AWS workflow
+
 0.25 (2025-02-06)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/15
