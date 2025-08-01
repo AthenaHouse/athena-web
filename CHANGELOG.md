@@ -1,11 +1,16 @@
+0.29 (2025-08-01)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/20
+* Fix scripts build in package.json, file was not copied because of lack of dir
+
 0.28 (2025-08-01)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/18
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/19
 * Create staticwebapp.config.json file
 
 0.27 (2025-07-28)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/17
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/18
 * eslint /* eslint-disable react/jsx-pascal-case */ for $styled_components
 * Update Babel and BrowsersList
 
