@@ -1,3 +1,8 @@
+0.28 (2025-08-01)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/18
+* Create staticwebapp.config.json file
+
 0.27 (2025-07-28)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/17
