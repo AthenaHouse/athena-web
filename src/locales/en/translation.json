@@ -27,5 +27,7 @@
     "software_testCaseFileManager_requirements_1": "Operating System: Windows with Java version 1.8 or higher installed.",
     "software_testCaseFileManager_requirements_2": "Screen Resolution: Between 1280x720 and 1920x1080 px.",
     "function_download_exe": "Download",
-    "documentation": "Documentation"
+    "documentation": "Documentation",
+    "in_progress_title": "In Progress...",
+    "in_progress_description": "This section is currently under development. Check back soon — content will appear here shortly."
 }

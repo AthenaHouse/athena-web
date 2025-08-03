@@ -1,3 +1,8 @@
+0.31 (2025-08-03)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/22
+* Create InProgress component and implement it in Project section
+
 0.30 (2025-08-03)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/21

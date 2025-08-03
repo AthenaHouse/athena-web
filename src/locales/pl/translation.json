@@ -27,6 +27,8 @@
     "software_testCaseFileManager_requirements_1": "System operacyjny: Windows z zainstalowaną Javą w wersji co najmniej 1.8.",
     "software_testCaseFileManager_requirements_2": "Rozdzielczość ekranu: Od 1280x720 do 1920x1080 px.",
     "function_download_exe": "Pobierz",
-    "documentation": "Dokumentacja"
+    "documentation": "Dokumentacja",
+    "in_progress_title": "W przygotowaniu...",
+    "in_progress_description": "Ten dział jest obecnie w przygotowaniu. Zajrzyj ponownie wkrótce – treści pojawią się tutaj niebawem."
 }
   
