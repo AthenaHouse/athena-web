@@ -26,7 +26,7 @@ export const $Text = styled.div`
   padding: 0.5em;
   border-radius: 10px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1100px) {
     top: 40%;
   }
 `;

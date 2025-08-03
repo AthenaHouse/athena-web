@@ -13,7 +13,7 @@ export const $Banner = styled.header`
   background-color: ${appwhite};
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1100px) {
     height: auto;
     padding: 10px 20px;
     justify-content: center;

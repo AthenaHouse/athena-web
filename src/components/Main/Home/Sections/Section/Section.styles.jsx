@@ -45,7 +45,7 @@ export const $Section = styled.div`
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1100px) {
         min-height: 0px;
     }
   }

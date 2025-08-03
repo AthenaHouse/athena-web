@@ -5,7 +5,7 @@ import logo from '../../../assets/athena_logo.jpg';
 /* eslint-disable react/jsx-pascal-case */
 export default function Logo() {
     return (
-        <Link to="/home">
+        <Link to="/home" style={{ display: 'inline-block' }}>
             <$Logo src={logo} alt="Carbon Tracker" />
         </Link>
     );

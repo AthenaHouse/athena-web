@@ -17,7 +17,7 @@ export const $Details = styled.div`
     "download download";
   gap: 25px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1100px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas:
