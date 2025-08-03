@@ -16,7 +16,7 @@ export const $Software = styled.div`
   padding: 10px;
   grid-template-areas: "img name description expand";
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1100px) {
     grid-template-columns: 50px 1fr 20px;
     grid-template-rows: auto auto;
     grid-template-areas:

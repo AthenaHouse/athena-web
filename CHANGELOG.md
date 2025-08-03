@@ -1,3 +1,9 @@
+0.30 (2025-08-03)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/21
+* Fix Logo width and change media query from 1024 to 1100
+* Delete Dockerfile and nginx configuration
+
 0.29 (2025-08-01)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/20

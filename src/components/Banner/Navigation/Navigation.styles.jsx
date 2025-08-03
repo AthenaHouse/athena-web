@@ -17,7 +17,7 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
 
-  @media (max-width: 768px) {
+  @media (max-width: 920px) {
     display: none;
   }
 `;

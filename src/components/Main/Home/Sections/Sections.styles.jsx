@@ -5,7 +5,7 @@ export const $Sections = styled.div`
     align-items: stretch;
     justify-content: space-around;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1100px) {
         flex-direction: column;
     }
 `
