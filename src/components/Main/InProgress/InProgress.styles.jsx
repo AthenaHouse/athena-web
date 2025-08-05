@@ -1,7 +1,6 @@
 import { styled } from "styled-components";
 import {
   darkgold,
-  lightgold,
   steelblue,
   steelgrey,
 } from "../../../utils/colors.styles";

@@ -1,3 +1,8 @@
+0.32 (2025-08-05)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/23
+* Create and apply favicon together with text
+
 0.31 (2025-08-03)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/22
