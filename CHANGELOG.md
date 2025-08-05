@@ -1,3 +1,8 @@
+0.33 (2025-08-05)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/24
+* Update react, update and clean up dependencies
+
 0.32 (2025-08-05)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/23
