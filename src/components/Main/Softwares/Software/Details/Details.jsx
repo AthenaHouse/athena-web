@@ -31,8 +31,9 @@ export default function Details({ softName }) {
   return (
     <$Details>
       <ReactPlayer
-        url={urls[softName].video}
+        src={urls[softName].video}
         width="100%"
+        height="400px"
         controls={true}
         playing={true}
         loop={true}
