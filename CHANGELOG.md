@@ -1,3 +1,8 @@
+0.35 (2025-08-07)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/26
+* Change Home page images 
+
 0.34 (2025-08-07)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/25
