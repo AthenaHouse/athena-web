@@ -1,3 +1,10 @@
+0.34 (2025-08-07)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/25
+* Synchronize image, progres bar and add fade
+* Add arrows for changing slide next and previous
+* Add pause button, status and functionality to stop slide
+
 0.33 (2025-08-07)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/24
