@@ -1,4 +1,4 @@
-0.3 (2025-08-06)
+0.33 (2025-08-07)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/24
 * Update dependencies and align configuration if needed
