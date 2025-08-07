@@ -1,4 +1,8 @@
 {
+    "pause": "Pause",
+    "auto": "Auto",
+    "resume": "Resume",
+    "stop": "Stop",
     "motto": "Secure IT for Your Business",
     "methodology": "How I work",
     "developer": "Who Am I?",
