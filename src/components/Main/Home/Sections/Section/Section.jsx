@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { $IconBackground, $Section, $StyledLink } from "./Section.styles.jsx";
 
 /* eslint-disable react/jsx-pascal-case */
