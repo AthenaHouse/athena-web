@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 import {
   darkgold,
   lightgold,
@@ -49,4 +50,10 @@ export const $Section = styled.div`
         min-height: 0px;
     }
   }
+`;
+
+export const $StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+  display: block;
 `;

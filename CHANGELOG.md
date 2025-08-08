@@ -1,3 +1,8 @@
+0.36 (2025-08-08)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/27
+* Set Link to whole section component
+
 0.35 (2025-08-07)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/26
