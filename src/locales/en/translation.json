@@ -33,5 +33,6 @@
     "function_download_exe": "Download",
     "documentation": "Documentation",
     "in_progress_title": "In Progress...",
-    "in_progress_description": "This section is currently under development. Check back soon — content will appear here shortly."
+    "in_progress_description": "This section is currently under development. Check back soon — content will appear here shortly.",
+    "footer": "© 2025 Created with passion by Bartosz Dziurowicz. All rights reserved."
 }
