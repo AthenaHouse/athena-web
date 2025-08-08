@@ -1,3 +1,8 @@
+0.37 (2025-08-08)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/28
+* Create and configure footer together eith content and locale
+
 0.36 (2025-08-08)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/27
