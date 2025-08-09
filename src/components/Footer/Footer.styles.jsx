@@ -5,7 +5,7 @@ export const $Footer = styled.div`
   position: relative;
   width: 100%;
   height: 30px;
-  padding: 5px 100px;
+  padding: 5px 10px;
   background-color: ${appblack};
   color: ${appwhite};
   display: flex;
@@ -14,4 +14,8 @@ export const $Footer = styled.div`
   box-sizing: border-box;
   text-align: center;
   font-size: 12px;
+
+  @media (max-width: 449px) {
+    height: 40px;
+  }
 `;
