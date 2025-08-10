@@ -9,7 +9,6 @@ export default function Softwares() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    console.log("dsfdsfsdf", softwareData);
     setData(_prevData => softwareData);
   }, []);
 

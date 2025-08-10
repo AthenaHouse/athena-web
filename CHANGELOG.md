@@ -1,7 +1,14 @@
+0.38 (2025-08-10)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/29
+* Create media query for Footer
+* Add InProgress component to Academy
+* Replace old AWS links to new Azure Blob storage url's
+
 0.37 (2025-08-08)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/28
-* Create and configure footer together eith content and locale
+* Create and configure footer together with content and locale
 
 0.36 (2025-08-08)
 ===============
