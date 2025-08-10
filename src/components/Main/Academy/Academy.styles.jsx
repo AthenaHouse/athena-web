@@ -1,5 +1,9 @@
 import { styled } from "styled-components";
 
 export const $Academy = styled.div`
-    color: red;
-`
+  margin-top: 40px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
