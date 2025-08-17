@@ -27,9 +27,9 @@ export default function Info() {
         </p>
       ))}
       <h2>{t("contact_motto_finalizer")}</h2>
-      <a><FaTools /> {t("contact_finalizer")}</a>
+      <span><FaTools /> {t("contact_finalizer")}</span>
       <br /><br />
-      <a><FaCommentDots /> {t("contact_invitation")}</a>
+      <span><FaCommentDots /> {t("contact_invitation")}</span>
     </$Info>
   );
 }

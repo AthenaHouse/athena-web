@@ -22,7 +22,7 @@ export const $Info = styled.div`
     }
   }
 
-  a {
+  span {
     color: ${steelgrey};
 
     & > :first-child {
