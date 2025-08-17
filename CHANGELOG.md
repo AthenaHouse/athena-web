@@ -1,3 +1,11 @@
+0.39 (2025-08-17)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/30
+* Develop Contact section
+* Create Contact Info component
+* Create Contact Form component
+* Develop and implement Azure Function and align it with Azure Communication Services
+
 0.38 (2025-08-10)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/29
