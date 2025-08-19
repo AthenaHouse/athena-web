@@ -8,6 +8,10 @@ export const $Form = styled.form`
   flex-direction: column;
   align-items: stretch;
   gap: 15px;
+
+  @media (max-width: 1100px) { 
+    width: 90%;
+  }
 `;
 
 export const $Label = styled.label`
@@ -20,8 +24,9 @@ export const $Label = styled.label`
 `
 
 export const $Input = styled.input`
-  width: 100%;
+  width: 98%;
   font-size: 0.9em;
+  font-family: inherit;
   color: ${steelgrey};
   padding: 4px 8px;
   border: 1px solid ${darkgold};
@@ -34,9 +39,10 @@ export const $Input = styled.input`
 `
 
 export const $TextArea = styled.textarea`
-  width: 100%;
+  width: 98%;
   min-height: 180px;
-  font-size: 1.2em;
+  font-size: 0.9em;
+  font-family: inherit;
   color: ${steelgrey};
   padding: 4px 8px;
   border: 1px solid ${darkgold};
@@ -61,9 +67,9 @@ export const $Button = styled.button`
   align-items: center;
   justify-content: center;
   color: ${appwhite};
-  background: ${steelblue};
+  background: ${darkgold};
   cursor: pointer;
-  border: 1px solid ${steelblue};
+  border: 1px solid ${darkgold};
   user-select: none;
   padding: 8px 50px;
 
