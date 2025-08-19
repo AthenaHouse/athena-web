@@ -1,3 +1,10 @@
+0.40 (2025-08-19)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/31
+* Implement media query for Contact
+* Inherit font family in TextArea and Input fields
+* Add 'api' path to workload
+
 0.39 (2025-08-17)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/30
