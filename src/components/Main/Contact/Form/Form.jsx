@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import ReCAPTCHA from "react-google-recaptcha";
 import { createBaseUrl } from "../../../../utils/api.js";
 import {
   $Button,
@@ -13,49 +14,65 @@ import {
 
 /* eslint-disable react/jsx-pascal-case */
 export default function Form() {
+  const siteKey = "6LfgzqsrAAAAABTOyXoeFGs26mFw_9z9N7FeXZFt";
+  const recaptchaRef = useRef(null);
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [email, setEmail] = useState("");
   const [topic, setTopic] = useState("");
   const [content, setContent] = useState("");
   const [status, setStatus] = useState(null);
+  const [captchaToken, setCaptchaToken] = useState(null);
   const { t } = useTranslation();
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setIsSubmitting(true);
+  const handleCaptcha = (token) => {
+    setCaptchaToken(token);
+  };
 
-  try {
-    const baseUrl = createBaseUrl();
-    const response = await fetch(`${baseUrl}/api/sendEmail`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email, topic, content }),
-    });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-    const result = await response.text();
-    console.log(result);
-
-    if (response.ok) {
-      setStatus(true);
-      setEmail("");
-      setTopic("");
-      setContent("");
-    } else {
+    if (!captchaToken) {
       setStatus(false);
+      console.warn("Missing reCAPTCHA token");
+      setIsSubmitting(false);
+      return;
     }
-  } catch (error) {
-    setStatus(false);
-    console.error(error);
-  }
 
-  setTimeout(() => {
-    setStatus(null);
-    setIsSubmitting(false);
-  }, 5000);
-};
+    try {
+      const baseUrl = createBaseUrl();
+      const response = await fetch(`${baseUrl}/api/sendEmail`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, topic, content, token: captchaToken }),
+      });
 
+      const result = await response.text();
+      console.log(result);
+
+      if (response.ok) {
+        setStatus(true);
+        setEmail("");
+        setTopic("");
+        setContent("");
+        recaptchaRef.current.reset();
+        setCaptchaToken(null);
+      } else {
+        setStatus(false);
+      }
+    } catch (error) {
+      setStatus(false);
+      console.error(error);
+    }
+
+    setTimeout(() => {
+      setStatus(null);
+      setIsSubmitting(false);
+    }, 5000);
+  };
 
   return (
     <$Form onSubmit={handleSubmit}>
@@ -94,14 +111,21 @@ const handleSubmit = async (e) => {
         />
       </$Label>
 
+      <ReCAPTCHA
+        sitekey={siteKey}
+        onChange={handleCaptcha}
+        ref={recaptchaRef}
+      />
+
       <$Wrapper>
-        <$Button type="submit" disabled={isSubmitting}>{t("contact_form_button")}</$Button>
+        <$Button type="submit" disabled={isSubmitting}>
+          {t("contact_form_button")}
+        </$Button>
         {status !== null && (
           <$Status $status={status}>
             {status === true
               ? t("contact_form_send_ok")
-              : t("contact_form_send_error")
-            }
+              : t("contact_form_send_error")}
           </$Status>
         )}
       </$Wrapper>
