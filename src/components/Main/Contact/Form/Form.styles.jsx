@@ -40,7 +40,7 @@ export const $Input = styled.input`
 
 export const $TextArea = styled.textarea`
   width: 98%;
-  min-height: 180px;
+  min-height: 140px;
   font-size: 0.9em;
   font-family: inherit;
   color: ${steelgrey};
