@@ -26,7 +26,6 @@ export default function Form() {
   const [captchaToken, setCaptchaToken] = useState("token");
   const { t } = useTranslation();
   const { i18n } = useTranslation();
-  const [loading, setLoading] = useState(true);
 
   const handleCaptcha = (token) => {
     setCaptchaToken(token);
@@ -131,7 +130,7 @@ export default function Form() {
         ) : status === "submitting" ? (
           <ClipLoader
             color={darkgold}
-            loading={loading}
+            loading={true}
             cssOverride={{ margin: "0px auto 0px auto" }}
             size={28}
             aria-label="Loading Spinner"
