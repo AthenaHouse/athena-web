@@ -1,3 +1,8 @@
+0.41 (2025-08-20)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/32
+* Implement Google reCAPTCHA v2
+
 0.40 (2025-08-19)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/31
