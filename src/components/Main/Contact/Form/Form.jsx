@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ReCAPTCHA from "react-google-recaptcha";
+import { siteKey } from "./Form.utils.js";
 import { createBaseUrl } from "../../../../utils/api.js";
 import {
   $Button,
@@ -14,7 +15,6 @@ import {
 
 /* eslint-disable react/jsx-pascal-case */
 export default function Form() {
-  const siteKey = "6LfgzqsrAAAAABTOyXoeFGs26mFw_9z9N7FeXZFt";
   const recaptchaRef = useRef(null);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -22,8 +22,9 @@ export default function Form() {
   const [topic, setTopic] = useState("");
   const [content, setContent] = useState("");
   const [status, setStatus] = useState(null);
-  const [captchaToken, setCaptchaToken] = useState(null);
+  const [captchaToken, setCaptchaToken] = useState("token");
   const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
   const handleCaptcha = (token) => {
     setCaptchaToken(token);
@@ -111,11 +112,15 @@ export default function Form() {
         />
       </$Label>
 
-      <ReCAPTCHA
-        sitekey={siteKey}
-        onChange={handleCaptcha}
-        ref={recaptchaRef}
-      />
+      <$Wrapper>
+        <ReCAPTCHA
+          key={i18n.language}
+          sitekey={siteKey}
+          onChange={handleCaptcha}
+          ref={recaptchaRef}
+          hl={i18n.language}
+        />
+      </$Wrapper>
 
       <$Wrapper>
         <$Button type="submit" disabled={isSubmitting}>

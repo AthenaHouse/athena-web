@@ -1,18 +1,24 @@
+0.42 (2025-08-20)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/49
+* Delete require dependecy in sendEmail function
+* Implement languages for reCaptcha
+
 0.41 (2025-08-20)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/32
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/48
 * Implement Google reCAPTCHA v2
 
 0.40 (2025-08-19)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/31
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/45
 * Implement media query for Contact
 * Inherit font family in TextArea and Input fields
 * Add 'api' path to workload
 
 0.39 (2025-08-17)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/30
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/44
 * Develop Contact section
 * Create Contact Info component
 * Create Contact Form component
@@ -20,51 +26,51 @@
 
 0.38 (2025-08-10)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/29
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/42
 * Create media query for Footer
 * Add InProgress component to Academy
 * Replace old AWS links to new Azure Blob storage url's
 
 0.37 (2025-08-08)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/28
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/41
 * Create and configure footer together with content and locale
 
 0.36 (2025-08-08)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/27
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/40
 * Set Link to whole section component
 
 0.35 (2025-08-07)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/26
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/38
 * Change Home page images 
 
 0.34 (2025-08-07)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/25
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/36
 * Synchronize image, progres bar and add fade
 * Add arrows for changing slide next and previous
 * Add pause button, status and functionality to stop slide
 
 0.33 (2025-08-07)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/24
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/34
 * Update dependencies and align configuration if needed
 
 0.32 (2025-08-05)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/23
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/32
 * Create and apply favicon together with text
 
 0.31 (2025-08-03)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/22
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/31
 * Create InProgress component and implement it in Project section
 
 0.30 (2025-08-03)
 ===============
-* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/21
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/29
 * Fix Logo width and change media query from 1024 to 1100
 * Delete Dockerfile and nginx configuration
 
