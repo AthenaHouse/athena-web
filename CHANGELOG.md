@@ -1,3 +1,8 @@
+0.43 (2025-08-21)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/50
+* Add spinner when send request is submitting
+
 0.42 (2025-08-20)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/49

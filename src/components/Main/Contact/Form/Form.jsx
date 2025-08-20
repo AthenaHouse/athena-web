@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import ReCAPTCHA from "react-google-recaptcha";
 import { siteKey } from "./Form.utils.js";
 import { createBaseUrl } from "../../../../utils/api.js";
+import { ClipLoader } from "react-spinners";
 import {
   $Button,
   $Wrapper,
@@ -12,12 +13,12 @@ import {
   $Status,
   $TextArea,
 } from "./Form.styles.jsx";
+import { darkgold } from "../../../../utils/colors.styles.jsx";
 
 /* eslint-disable react/jsx-pascal-case */
 export default function Form() {
   const recaptchaRef = useRef(null);
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [email, setEmail] = useState("");
   const [topic, setTopic] = useState("");
   const [content, setContent] = useState("");
@@ -32,12 +33,12 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
+
+    setStatus("submitting");
 
     if (!captchaToken) {
       setStatus(false);
       console.warn("Missing reCAPTCHA token");
-      setIsSubmitting(false);
       return;
     }
 
@@ -71,8 +72,7 @@ export default function Form() {
 
     setTimeout(() => {
       setStatus(null);
-      setIsSubmitting(false);
-    }, 5000);
+    }, 10000);
   };
 
   return (
@@ -123,10 +123,21 @@ export default function Form() {
       </$Wrapper>
 
       <$Wrapper>
-        <$Button type="submit" disabled={isSubmitting}>
-          {t("contact_form_button")}
-        </$Button>
-        {status !== null && (
+        {status === null ? (
+          <$Button type="submit" blocked={status === null ? false : true}>
+            {t("contact_form_button")}
+          </$Button>
+        ) : status === "submitting" ? (
+          <ClipLoader
+            color={darkgold}
+            loading={true}
+            cssOverride={{ margin: "0px auto 0px auto" }}
+            size={28}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+            speedMultiplier={0.75}
+          />
+        ) : (
           <$Status $status={status}>
             {status === true
               ? t("contact_form_send_ok")
