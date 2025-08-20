@@ -1,3 +1,8 @@
+0.44 (2025-08-21)
+===============
+* [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/51
+* Hide Carbon Tracker unfinished software
+
 0.43 (2025-08-21)
 ===============
 * [@BartoszDziurowicz](https://github.com/AthenaHouse/athena-web/pull/50
