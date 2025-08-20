@@ -1,6 +1,5 @@
 const { EmailClient } = require("@azure/communication-email");
 const { app } = require("@azure/functions");
-const fetch = require("node-fetch");
 
 app.http("sendEmail", {
   methods: ["POST"],
